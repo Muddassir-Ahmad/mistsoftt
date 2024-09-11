@@ -1,0 +1,388 @@
+/* ================================= */
+/* General Dark Theme Styles (Global) */
+/* ================================= */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #e0e0e0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+/* Icon Styles (Used Globally) */
+i {
+  margin-right: 10px;
+}
+
+/* Button Styles (Used Globally) */
+.btn-outline-light {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #121212;
+  transition: 0.3s;
+}
+
+/* ================================= */
+/* Navbar Styles (Global) */
+/* ================================= */
+.navbar {
+  padding: 5px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #e0e0e0;
+  transition: color 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  border-color: #ffffff;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+.navbar-brand {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FF6F61; /*Coral*/
+}
+
+
+/* Navbar Active Item Styling */
+.navbar-nav .nav-link.active {
+  border: 2px solid white; /* Solid white border for active item */
+  border-radius: 10px; /* Rounded corners */
+  padding: 5px 10px; /* Padding for better spacing */
+}
+
+/* ================================= */
+/* Hero Section (Home Page) */
+/* ================================= */
+
+h2,
+h3 {
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+/* Hero Section Styles */
+.hero {
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/hero-bg.jpg"); /* Add your background image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+/* ================================= */
+/* Vision & Mission, Expertise Sections (Home Page) */
+/* ================================= */
+.vision-mission,
+.expertise {
+  padding: 60px 0;
+  color: #e0e0e0;
+}
+
+.vision-mission h2,
+.expertise h2 {
+  font-size: 2.5rem;
+}
+
+.vision-mission p,
+.expertise p {
+  font-size: 1.2rem;
+}
+
+/* ================================= */
+/* Footer Styles (Global) */
+/* ================================= */
+footer {
+  font-size: 0.9rem;
+  background-color: #000;
+  padding: 20px 0;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+footer .social-icons a {
+  font-size: 1.2rem;
+  margin: 0 10px;
+  display: inline-block;
+  color: #e0e0e0;
+}
+
+footer .social-icons a:hover {
+  color: #ffffff;
+}
+
+/* ================================= */
+/* About Us Page */
+/* ================================= */
+.about-us {
+  padding: 60px 0;
+  background-color: #121212; /* Removed background image, keeping a dark background */
+  color: #e0e0e0;
+}
+
+.about-us h2 {
+  color: #ffffff;
+}
+
+.about-us p {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+}
+
+.team-img {
+  border-radius: 10px;
+  max-width: 100%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+  margin-top: 20px;
+}
+
+/* ================================= */
+/* Team Section (About Us Page) */
+/* ================================= */
+.team {
+  padding: 60px 0;
+}
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.team-member h5 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.team-member p {
+  color: #ffffff !important; /* Ensure white text for team member paragraphs */
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  color: #e0e0e0;
+}
+
+/* ================================= */
+/* Services Section */
+/* ================================= */
+.services {
+  padding: 60px 0;
+  color: #e0e0e0;
+}
+
+.services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.services .lead {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #e0e0e0;
+}
+
+/* Carousel for Software Services */
+.carousel-item img {
+  border-radius: 10px;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for text readability */
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.carousel-caption h5 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.carousel-caption p {
+  color: #e0e0e0;
+  font-size: 1rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); /* Invert color for visibility on dark background */
+}
+
+/* Software Services Icons */
+.industries {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.industries h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.industries p {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #e0e0e0;
+}
+
+.industries .row img {
+  max-width: 60px;
+  transition: transform 0.3s ease-in-out; /* Smooth zoom-in hover effect */
+}
+
+.industries .row img:hover {
+  transform: scale(1.1); /* Hover effect for service icons */
+}
+
+.industries .row h5 {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.industries .row h5:hover {
+  color: #00bfff; /* Optional hover effect for service titles */
+}
+
+/* ================================= */
+/* Contact Us Page */
+/* ================================= */
+/* Custom styles for Contact Us page */
+.contact-us {
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Dark overlay on top of the background image */
+  padding: 60px 0;
+}
+
+.contact-us h2 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-us ul li {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-us ul li i {
+  font-size: 2rem;
+}
+
+.contact-us ul li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+.contact-us ul li span {
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+.contact-us img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+}
+
+/* ================================= */
+/* Media Queries for Responsive Design */
+/* ================================= */
+@media (max-width: 768px) {
+  .about-us,
+  .contact-us,
+  .services,
+  .team {
+    text-align: center;
+  }
+
+  .team-img {
+    margin-top: 20px;
+  }
+
+  .navbar-brand img {
+    height: 30px;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .team h2,
+  .services h2 {
+    font-size: 2rem;
+  }
+
+  .team-member img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .team-member h5 {
+    font-size: 1rem;
+  }
+
+  .industries .row img {
+    max-width: 50px;
+  }
+
+  .industries .row h5 {
+    font-size: 0.9rem;
+  }
+}
